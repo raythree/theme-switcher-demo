@@ -21,7 +21,7 @@ const history = syncHistoryWithStore(browserHistory, store);
 
 render(
     <Provider store={store}>
-      <ThemeSwitcher defaultTheme="default" storeThemeKey="theme">
+      <ThemeSwitcher defaultTheme="default" themePath="/theme-switcher/themes" storeThemeKey="theme">
         <Router history={history} routes={routes} />
       </ThemeSwitcher>
     </Provider>, document.getElementById('app')

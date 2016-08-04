@@ -11,13 +11,13 @@ class PageOne extends React.Component {
     <form className="form-horizontal" style={{maxWidth: 600}}>
       <fieldset>
         <div className="form-group">
-          <label for="inputEmail" className="col-lg-2 control-label">Email</label>
+          <label className="col-lg-2 control-label">Email</label>
           <div className="col-lg-10">
             <input type="text" className="form-control" id="inputEmail" placeholder="Email"/>
           </div>
         </div>
         <div className="form-group">
-          <label for="inputPassword" className="col-lg-2 control-label">Password</label>
+          <label className="col-lg-2 control-label">Password</label>
           <div className="col-lg-10">
             <input type="password" className="form-control" id="inputPassword" placeholder="Password"/>
             <div className="checkbox">
@@ -28,7 +28,7 @@ class PageOne extends React.Component {
           </div>
         </div>
         <div className="form-group">
-          <label for="textArea" className="col-lg-2 control-label">Textarea</label>
+          <label className="col-lg-2 control-label">Textarea</label>
           <div className="col-lg-10">
             <textarea className="form-control" rows="3" id="textArea"></textarea>
             <span className="help-block">A longer block of help text that breaks onto a new line and may extend beyond one line.</span>
@@ -52,7 +52,7 @@ class PageOne extends React.Component {
           </div>
         </div>
         <div className="form-group">
-          <label for="select" className="col-lg-2 control-label">Selects</label>
+          <label className="col-lg-2 control-label">Selects</label>
           <div className="col-lg-10">
             <select className="form-control" id="select">
               <option>1</option>
@@ -200,7 +200,7 @@ class PageOne extends React.Component {
       <div>
         <div className="row" style={{marginBottom: '2em'}}>
           <div className="col-md-12">
-            <ThemeChooser style={{display: 'inline'}} themePath="/theme-switcher/themes"/> <span style={{fontSize: '1.0em'}}> This is the ThemeChooser Component</span>
+            <ThemeChooser style={{display: 'inline'}}/> <span style={{fontSize: '1.0em'}}> This is the ThemeChooser Component</span>
           </div>
         </div>
 
@@ -235,7 +235,7 @@ class PageOne extends React.Component {
 
         <div className="row">
           <div className="col-md-6">
-            <h3>Paneles</h3>
+            <h3>Panels</h3>
             {panels}
           </div>
           <div className="col-md-6">
