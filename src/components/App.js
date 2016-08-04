@@ -6,6 +6,9 @@ const App = (props) => {
       <div className="row">
         <div className="col-md-12">
           <h2>Demo for react-bootstrap-theme-switcher</h2>
+          <div style={{marginBottom: '1em'}}>
+            <a href="https://github.com/raythree/theme-switcher-demo" target="_blank">Code is here.</a>
+          </div>
           {props.children}
         </div>
       </div>
