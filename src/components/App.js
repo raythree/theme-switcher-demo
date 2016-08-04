@@ -6,13 +6,7 @@ const App = (props) => {
     <div className="container-fluid">
       <div className="row">
         <div className="col-md-12">
-          <Link className="btn btn-default" to="page1">Page One</Link>
-          <Link className="btn btn-default"  to="page2">Page Two</Link>
-        </div>
-      </div>
-
-      <div className="row">
-        <div className="col-md-12">
+          <h2>Demo for react-bootstrap-theme-switcher</h2>
           {props.children}
         </div>
       </div>
