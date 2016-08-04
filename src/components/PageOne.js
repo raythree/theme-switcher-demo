@@ -200,7 +200,7 @@ class PageOne extends React.Component {
       <div>
         <div className="row" style={{marginBottom: '2em'}}>
           <div className="col-md-12">
-            <ThemeChooser style={{display: 'inline'}}/> <span style={{fontSize: '1.0em'}}> This is the ThemeChooser Component</span>
+            <ThemeChooser style={{display: 'inline'}} themePath="/theme-switcher/themes"/> <span style={{fontSize: '1.0em'}}> This is the ThemeChooser Component</span>
           </div>
         </div>
 

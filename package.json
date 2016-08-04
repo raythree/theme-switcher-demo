@@ -1,7 +1,7 @@
 {
-  "name": "react-slingshot",
-  "version": "5.0.0",
-  "description": "Starter kit for creating apps with React and Redux",
+  "name": "theme-switcher-demo",
+  "version": "1.0.0",
+  "description": "Demo for react-bootstrap-theme-switcher",
   "engines": {
     "npm": ">=3"
   },
@@ -26,7 +26,7 @@
     "test:watch": "npm run test -- --watch",
     "open:cover": "npm run test:cover && open coverage/index.html"
   },
-  "author": "Cory House",
+  "author": "Bill Walker",
   "license": "MIT",
   "dependencies": {
     "bluebird": "3.4.1",
@@ -111,6 +111,6 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/coryhouse/react-slingshot"
+    "url": "https://github.com/raythree/theme-switcher-demo"
   }
 }
