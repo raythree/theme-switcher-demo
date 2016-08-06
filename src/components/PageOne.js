@@ -217,19 +217,48 @@ class PageOne extends React.Component {
         </div>
 
         <div className="row">
-          <div className="col-md-12">
-            <h3>Buttons</h3>
-            <button className="btn btn-primary">Primary</button>
-            <button className="btn btn-default" style={{marginLeft: '1em'}}>Default</button>
-            <button className="btn btn-warning" style={{marginLeft: '1em'}}>Warning</button>
-            <button className="btn btn-danger" style={{marginLeft: '1em'}}>Danger</button>
-          </div>
-        </div>
+          <div className="col-md-6">
+            <div className="row">
+              <div className="col-md-12">
+                <h3>Buttons</h3>
+                <button className="btn btn-primary">Primary</button>
+                <button className="btn btn-default" style={{marginLeft: '1em'}}>Default</button>
+                <button className="btn btn-warning" style={{marginLeft: '1em'}}>Warning</button>
+                <button className="btn btn-danger" style={{marginLeft: '1em'}}>Danger</button>
+              </div>
+            </div>
 
-        <div className="row">
-          <div className="col-md-12">
-            <h3>Forms</h3>
-            {form}
+            <div className="row">
+              <div className="col-md-12">
+                <h3>Forms</h3>
+                {form}
+              </div>
+            </div>
+          </div>
+          <div className="col-md-6">
+            <div className="row">
+              <div className="col-md-12">
+                <h3>Lists</h3>
+                  <ul className="list-group">
+                    <li className="list-group-item">Cras justo odio</li>
+                    <li className="list-group-item">Dapibus ac facilisis in</li>
+                    <li className="list-group-item">Morbi leo risus</li>
+                    <li className="list-group-item">Porta ac consectetur ac</li>
+                    <li className="list-group-item">Vestibulum at eros</li>
+                  </ul>
+
+                  <div className="list-group">
+                    <a href="#" className="list-group-item active">
+                      Cras justo odio
+                    </a>
+                    <a href="#" className="list-group-item list-group-item-action">Dapibus ac facilisis in</a>
+                    <a href="#" className="list-group-item list-group-item-action">Morbi leo risus</a>
+                    <a href="#" className="list-group-item list-group-item-action">Porta ac consectetur ac</a>
+                    <a href="#" className="list-group-item list-group-item-action disabled">Vestibulum at eros</a>
+                  </div>
+              </div>
+            </div>
+
           </div>
         </div>
 
