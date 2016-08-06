@@ -240,21 +240,21 @@ class PageOne extends React.Component {
               <div className="col-md-12">
                 <h3>Lists</h3>
                   <ul className="list-group">
-                    <li className="list-group-item">Cras justo odio</li>
-                    <li className="list-group-item">Dapibus ac facilisis in</li>
-                    <li className="list-group-item">Morbi leo risus</li>
-                    <li className="list-group-item">Porta ac consectetur ac</li>
-                    <li className="list-group-item">Vestibulum at eros</li>
+                    <li className="list-group-item">List Item Number One</li>
+                    <li className="list-group-item">List Item Number Two</li>
+                    <li className="list-group-item">List Item Number Three</li>
+                    <li className="list-group-item">List Item Number Four</li>
+                    <li className="list-group-item">List Item Number Five</li>
                   </ul>
 
                   <div className="list-group">
                     <a href="#" className="list-group-item active">
-                      Cras justo odio
+                      Item One (active)
                     </a>
-                    <a href="#" className="list-group-item list-group-item-action">Dapibus ac facilisis in</a>
-                    <a href="#" className="list-group-item list-group-item-action">Morbi leo risus</a>
-                    <a href="#" className="list-group-item list-group-item-action">Porta ac consectetur ac</a>
-                    <a href="#" className="list-group-item list-group-item-action disabled">Vestibulum at eros</a>
+                    <a href="#" className="list-group-item list-group-item-action">Item Two</a>
+                    <a href="#" className="list-group-item list-group-item-action">Item Three</a>
+                    <a href="#" className="list-group-item list-group-item-action">Item Four</a>
+                    <a href="#" className="list-group-item list-group-item-action disabled">Item Five (disabled)</a>
                   </div>
               </div>
             </div>
